@@ -1,0 +1,23 @@
+---
+- students:
+  - name: krishna
+    phno: 78542563215
+    address:
+      door no: 7
+      street no: 56
+      pincode: 500072
+
+  - name: shiva
+    phno: 4521256325
+    address:
+      door no: 8
+      street no: 57
+      pincode: 500073
+
+  - name: raju
+    phno: 9854236254
+    address: 
+      door no: 9
+      street no: 58
+      pincode: 500074
+              

@@ -5,7 +5,7 @@
     myvar1: git
     myvar2: tree
     myvar3: wget
-    myvar4: java
+  
   tasks:
   - name: i want to display myvar1
     debug:
@@ -19,4 +19,3 @@
     - "{{myvar1}}"
     - "{{myvar2}}"
     - "{{myvar3}}"
-    - "{{myvar4}}"

@@ -7,16 +7,16 @@
     apt:
      name: apache2  
      state: present
-    notify: restart webserver 
+    notify: restartwebserver 
 
   - name: i want copy file into ansible nodes
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
-    notify: restart webserver
+    notify: restartwebserver
 
   handlers:
-  - name: restart webserver
+  - name: restartwebserver
     service:
      name: apache2
      state: restarted    

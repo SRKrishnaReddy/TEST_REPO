@@ -5,7 +5,7 @@
   - include_tasks: myfile.yml
   - name: i want to install webserver
     apt:
-     name: apache2
+     name: apache2  
      state: present
 
   - name: i want copy file into ansible nodes
